@@ -1,0 +1,34 @@
+{
+  "info": {
+    "_postman_id": "34bb2d1a-0310-4cd4-8a0d-847013aea0b0",
+    "name": "Intent",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "ea297153-b377-499b-8222-3531f0f7850f",
+      "name": "Detect Intent",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json; charset=utf-8",
+            "type": "text"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer ya29.c.EloxBrVjVUB_JDsAicWpb1VtT2W1xacIjiW4xgwSaZ83qAQ3o-mvAAnAJ5XyffE-WqljpV7yRiArzMN-tcGDY2PowlYn88LUqRE5NNAlp7eLOf9w1PJw7oahD1A",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"queryInput\":\n\t{\n\t\t\"text\":\n\t\t\t{\n\t\t\t\t\"text\":\"Are you open now??\",\n\t\t\t\t\"languageCode\":\"en\"\n\t\t\t}\n\t},\n\"queryParams\":{\"timeZone\":\"Europe/Madrid\"}}"
+        },
+        "url": "https://dialogflow.googleapis.com/v2/projects/bikeshop-5cc3d/agent/sessions/e314adef-2608-4c88-7f32-390387b15032:detectIntent"
+      },
+      "response": []
+    }
+  ]
+}
