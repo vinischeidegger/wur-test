@@ -1,0 +1,49 @@
+{
+  "info": {
+    "_postman_id": "cceee2eb-7ba9-4fc4-b756-658210a80a94",
+    "name": "Inheritance ",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "eaf51382-f96b-4505-800a-986ae3b3f7bc",
+      "name": "r1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {},
+        "url": "postman-echo.com/basic-auth"
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "basic",
+    "basic": {
+      "password": "password",
+      "username": "postman"
+    }
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "5f196398-98c8-45a0-8f17-f67458767018",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "2cacbdaa-4a79-4405-b68e-5aec376ac490",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ]
+}
